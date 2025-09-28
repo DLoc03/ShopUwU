@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
-:root {
-  --color-primary: #f738b6;
+@theme {
+  --color-primary: #dd477a;
+  --shadow-main: rgba(0, 0, 0, 0.1) 0px 5px 25px 0px;
 }
