@@ -9,9 +9,9 @@ import SearchBar from "../common/SearchBar";
 function HeroSection() {
   const navigate = useCommonNavigate();
   return (
-    <div className="bg-primary relative flex h-60 w-full items-end rounded-b-4xl md:h-100 lg:h-130 lg:items-center">
-      <div className="flex flex-1 flex-col gap-y-3 px-4 py-12 text-white md:px-20 md:py-20 lg:py-0">
-        <h1 className="font-slay text-xl font-bold text-shadow-2xs md:text-5xl lg:text-6xl">
+    <div className="bg-primary relative flex h-80 w-full items-end rounded-b-4xl md:h-100 lg:h-130 lg:items-center">
+      <div className="flex flex-1 flex-col gap-y-3 px-4 py-20 text-white md:px-20 md:py-20 lg:py-0">
+        <h1 className="font-slay text-xl font-bold text-shadow-2xs md:text-4xl lg:text-6xl">
           Thế giới Pokémon bằng len tại Chedi Shop
         </h1>
         <p className="text-md hidden font-light lg:inline-block">
