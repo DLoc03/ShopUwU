@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 
-function DefaultLayout({ children }) {
+function DefaultLayout({ children, fullHeight, fullWidth }) {
   const [headerHidden, setHeaderHidden] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);
 
@@ -22,7 +22,11 @@ function DefaultLayout({ children }) {
   return (
     <div>
       <Header headerHidden={headerHidden} />
-      <div>{children}</div>
+      <div
+        className={`${!fullWidth ? "max-w-7xl" : "max-w-full px-4 md:px-8"}`}
+      >
+        {children}
+      </div>
       <Footer />
     </div>
   );

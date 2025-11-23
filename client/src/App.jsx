@@ -8,12 +8,12 @@ function App() {
     <>
       <ScrollToTop />
       <Routes>
-        {routes.map(({ path, page: Page }) => (
+        {routes.map(({ path, page: Page, fullHeight, fullWidth }) => (
           <Route
             key={path}
             path={path}
             element={
-              <DefaultLayout>
+              <DefaultLayout fullHeight={fullHeight} fullWidth={fullWidth}>
                 <Page />
               </DefaultLayout>
             }

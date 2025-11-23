@@ -1,4 +1,4 @@
-import { PATHS } from "@/constants";
+import { PATHS } from "@/constants/path";
 import { useCommonNavigate } from "@/contexts/HandleNavigate";
 import React from "react";
 
