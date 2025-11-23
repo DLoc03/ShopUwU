@@ -10,11 +10,6 @@ const MENU_BAR = [
     label: "Pokémon",
     path: PATHS.PRODUCT,
   },
-  {
-    name: "cart",
-    label: "Giỏ hàng",
-    path: PATHS.CART,
-  },
 ];
 
 export { MENU_BAR };

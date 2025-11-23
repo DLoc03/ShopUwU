@@ -30,7 +30,7 @@ function DefaultLayout({ children, fullHeight, fullWidth }) {
         {children}
       </div>
       <div
-        className={`fixed bottom-0 left-0 w-full md:hidden ${headerHidden ? "-translate-y-full" : "translate-y-0"} transform duration-200`}
+        className={`fixed bottom-0 left-0 z-10 w-full md:hidden ${headerHidden ? "-translate-y-full" : "translate-y-0"} transform duration-200`}
       >
         <AppBar />
       </div>

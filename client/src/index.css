@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+:root {
+  font-family: "Roboto", sans-serif;
+}
+
 @theme {
   --color-primary: #dd477a;
   --shadow-main: rgba(0, 0, 0, 0.1) 0px 5px 25px 0px;

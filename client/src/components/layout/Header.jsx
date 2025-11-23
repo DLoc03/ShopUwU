@@ -9,22 +9,24 @@ function Header() {
   const menus = MENU_BAR;
   return (
     <header
-      className={`fixed top-0 left-0 w-full bg-transparent px-4 py-6 md:px-8`}
+      className={`fixed top-0 left-0 z-10 w-full border-b-white bg-transparent px-4 py-6 md:px-8`}
     >
       {/* Desktop */}
       <div className="flex items-center justify-between">
         {/* Title */}
-        <h1 className="font-slay text-4xl text-shadow-2xs">Chedi Shop</h1>
+        <h1 className="font-slay text-4xl text-white text-shadow-2xs">
+          Chedi Shop
+        </h1>
         <div className={`hidden items-center gap-3 md:flex`}>
           {menus.map((menu) => (
             <HeaderItem
               key={menu.name}
               name={menu.label}
               path={menu.path}
-              className={"border-2 border-black"}
+              className={"border-2 border-white"}
             />
           ))}
-          <IconButton className="border-2 border-black">
+          <IconButton className="border-2 border-white text-white">
             <ShoppingBag />
           </IconButton>
         </div>

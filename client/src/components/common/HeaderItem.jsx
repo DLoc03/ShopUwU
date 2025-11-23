@@ -8,7 +8,7 @@ function HeaderItem({ className, children, name, path }) {
   const isActive = path === location.pathname;
   return (
     <div
-      className={`${isActive && "bg-black/20"} cursor-pointer rounded-full px-3 py-2 ${className}`}
+      className={`${isActive ? "text-primary bg-white" : "text-white"} cursor-pointer rounded-full px-3 py-2 ${className}`}
       onClick={() => navigate(path)}
     >
       {children}

@@ -31,16 +31,16 @@ function AppBar() {
         {icons[menus[1].name]}
       </button>
       <button
-        className={`${location.pathname === "/thong-bao" ? activeStyle : normalStyle} flex h-full w-full items-center justify-center`}
+        className={`${location.pathname === PATHS.NOTIFY ? activeStyle : normalStyle} flex h-full w-full items-center justify-center`}
         onClick={() => navigate(PATHS.NOTIFY)}
       >
         <Bell size={28} />
       </button>
       <button
-        className={`${location.pathname === menus[2].path ? activeStyle : normalStyle} flex h-full w-full items-center justify-center`}
-        onClick={() => navigate(menus[2].path)}
+        className={`${location.pathname === PATHS.CART ? activeStyle : normalStyle} flex h-full w-full items-center justify-center`}
+        onClick={() => navigate(PATHS.CART)}
       >
-        {icons[menus[2].name]}
+        <ShoppingBag size={28} />
       </button>
     </div>
   );
