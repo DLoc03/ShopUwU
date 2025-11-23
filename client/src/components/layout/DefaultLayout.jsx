@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
+import AppBar from "./AppBar";
 
 function DefaultLayout({ children, fullHeight, fullWidth }) {
   const [headerHidden, setHeaderHidden] = useState(false);
@@ -21,11 +22,17 @@ function DefaultLayout({ children, fullHeight, fullWidth }) {
   }, [lastScrollY]);
   return (
     <div>
-      <Header headerHidden={headerHidden} />
-      <div
-        className={`${!fullWidth ? "max-w-7xl" : "max-w-full px-4 md:px-8"}`}
-      >
+      <Header
+        headerHidden={headerHidden}
+        onToggleSidebar={() => setToggleSidebar(true)}
+      />
+      <div className={`${!fullWidth ? "max-w-7xl" : "max-w-full"}`}>
         {children}
+      </div>
+      <div
+        className={`fixed bottom-0 left-0 w-full md:hidden ${headerHidden ? "-translate-y-full" : "translate-y-0"} transform duration-200`}
+      >
+        <AppBar />
       </div>
       <Footer />
     </div>
