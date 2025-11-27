@@ -4,9 +4,11 @@ import React from "react";
 
 function Home() {
   return (
-    <div>
+    <div className="space-y-4">
       <HeroSection />
-      <CategorySection />
+      <div className="mt-12">
+        <CategorySection />
+      </div>
     </div>
   );
 }

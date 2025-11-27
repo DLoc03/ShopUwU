@@ -6,7 +6,7 @@ import SliderComponent from "../common/SliderComponent";
 
 function CategorySection() {
   return (
-    <div className="mx-auto mt-16 max-w-7xl px-4 lg:px-0">
+    <div className="mx-auto max-w-7xl px-4 lg:px-0">
       {/* Header */}
       <h1 className="text-primary space-y-3 text-center text-3xl font-bold md:text-4xl">
         Danh mục
