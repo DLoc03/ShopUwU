@@ -7,7 +7,7 @@ const MENU_BAR = [
   },
   {
     name: "product",
-    label: "Pokémon",
+    label: "Mẫu Pokémon",
     path: PATHS.PRODUCT,
   },
 ];

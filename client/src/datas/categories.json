@@ -1,0 +1,166 @@
+{
+  "categories": [
+    {
+      "id": "pokemon",
+      "name": "Pokémon",
+      "slug": "pokemon",
+      "children": [
+        { "id": "pikachu", "name": "Pikachu", "slug": "pikachu" },
+        {
+          "id": "eevee-evolutions",
+          "name": "Eevee & Evolutions",
+          "slug": "eevee-evolutions"
+        },
+        {
+          "id": "starter-pokemon",
+          "name": "Starter Pokémon",
+          "slug": "starter-pokemon",
+          "children": [
+            { "id": "bulbasaur", "name": "Bulbasaur", "slug": "bulbasaur" },
+            { "id": "charmander", "name": "Charmander", "slug": "charmander" },
+            { "id": "squirtle", "name": "Squirtle", "slug": "squirtle" }
+          ]
+        },
+        {
+          "id": "legendary",
+          "name": "Pokémon Huyền Thoại",
+          "slug": "pokemon-huyen-thoai"
+        },
+        {
+          "id": "cute",
+          "name": "Pokémon Dễ Thương",
+          "slug": "pokemon-de-thuong"
+        },
+        {
+          "id": "pokemon-mini",
+          "name": "Pokémon Mini",
+          "slug": "pokemon-mini"
+        },
+        {
+          "id": "all-pokemon",
+          "name": "Tất Cả Pokémon",
+          "slug": "tat-ca-pokemon"
+        }
+      ]
+    },
+    {
+      "id": "amigurumi",
+      "name": "Thú Len (Amigurumi)",
+      "slug": "thu-len-amigurumi",
+      "children": [
+        { "id": "mini", "name": "Mini (5–8cm)", "slug": "mini-5-8cm" },
+        {
+          "id": "medium",
+          "name": "Medium (10–15cm)",
+          "slug": "medium-10-15cm"
+        },
+        { "id": "large", "name": "Large (20–30cm)", "slug": "large-20-30cm" },
+        { "id": "xl", "name": "XL (Trên 30cm)", "slug": "xl-tren-30cm" },
+        { "id": "premium", "name": "Plush / Premium", "slug": "plush-premium" },
+        {
+          "id": "combo",
+          "name": "Theo Bộ / Combo Pokémon",
+          "slug": "combo-pokemon"
+        }
+      ]
+    },
+    {
+      "id": "accessories",
+      "name": "Phụ Kiện Len",
+      "slug": "phu-kien-len",
+      "children": [
+        {
+          "id": "keychain",
+          "name": "Móc Khóa Pokémon",
+          "slug": "moc-khoa-pokemon"
+        },
+        { "id": "bag-charm", "name": "Móc Treo Balo", "slug": "moc-treo-balo" },
+        {
+          "id": "decor-charm",
+          "name": "Charm Trang Trí",
+          "slug": "charm-trang-tri"
+        },
+        {
+          "id": "mini-figure",
+          "name": "Figure Len Mini",
+          "slug": "figure-len-mini"
+        },
+        {
+          "id": "desk-decor",
+          "name": "Đồ Trang Trí Bàn Làm Việc",
+          "slug": "do-trang-tri-ban-lam-viec"
+        }
+      ]
+    },
+    {
+      "id": "gifts",
+      "name": "Quà Tặng",
+      "slug": "qua-tang",
+      "children": [
+        { "id": "birthday", "name": "Quà Sinh Nhật", "slug": "qua-sinh-nhat" },
+        {
+          "id": "love",
+          "name": "Quà Cho Người Yêu",
+          "slug": "qua-cho-nguoi-yeu"
+        },
+        { "id": "kids", "name": "Quà Cho Trẻ Em", "slug": "qua-cho-tre-em" },
+        {
+          "id": "seasonal",
+          "name": "Theo Mùa",
+          "slug": "theo-mua",
+          "children": [
+            { "id": "noel", "name": "Noel", "slug": "noel" },
+            { "id": "tet", "name": "Tết", "slug": "tet" },
+            { "id": "valentine", "name": "Valentine", "slug": "valentine" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "collections",
+      "name": "Bộ Sưu Tập Đặc Biệt",
+      "slug": "bo-suu-tap-dac-biet",
+      "children": [
+        { "id": "bestseller", "name": "Best Seller", "slug": "best-seller" },
+        {
+          "id": "new-arrivals",
+          "name": "Sản Phẩm Mới",
+          "slug": "san-pham-moi"
+        },
+        {
+          "id": "limited",
+          "name": "Limited Edition",
+          "slug": "limited-edition"
+        },
+        {
+          "id": "themes",
+          "name": "Theo Chủ Đề",
+          "slug": "theo-chu-de",
+          "children": [
+            { "id": "halloween", "name": "Halloween", "slug": "halloween" },
+            { "id": "christmas", "name": "Christmas", "slug": "christmas" },
+            {
+              "id": "summer",
+              "name": "Summer Edition",
+              "slug": "summer-edition"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sale",
+      "name": "Khuyến Mãi",
+      "slug": "khuyen-mai",
+      "children": [
+        { "id": "flash-sale", "name": "Flash Sale", "slug": "flash-sale" },
+        {
+          "id": "bundle-sale",
+          "name": "Giảm Theo Combo",
+          "slug": "giam-theo-combo"
+        },
+        { "id": "clearance", "name": "Xả Kho", "slug": "xa-kho" }
+      ]
+    }
+  ]
+}

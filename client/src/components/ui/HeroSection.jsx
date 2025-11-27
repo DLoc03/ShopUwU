@@ -14,7 +14,7 @@ function HeroSection() {
         <h1 className="font-slay text-xl font-bold text-shadow-2xs md:text-4xl lg:text-6xl">
           Thế giới Pokémon bằng len tại Chedi Shop
         </h1>
-        <p className="text-md hidden font-light lg:inline-block">
+        <p className="text-md hidden font-light xl:inline-block">
           Chedi Shop chuyên nhận đan len Pokémon theo yêu cầu, từng sản phẩm đều
           được làm thủ công tỉ mỉ, mềm mịn và lên form chuẩn như mẫu. Bạn chỉ
           cần gửi hình nhân vật yêu thích, chúng mình sẽ đan lại bằng len siêu
